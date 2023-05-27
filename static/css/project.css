@@ -1,0 +1,38 @@
+.fullHeight{
+	height: 100vh;
+}
+
+.fullWidth{
+	width: 100vw;
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+
+.round-sm {
+	border-radius: 15px;
+}
+
+.margin-lr-center{
+	margin: 0 auto;
+}
+
+.margin-left-auto{
+	margin-left:auto;
+}
+
+.margin-right-auto{
+	margin-right:auto;
+}
+
+.border-bottom{
+	border-bottom: thick solid #e8eded;
+}
+
+.btn:active {
+	margin-left: 4upx;
+}

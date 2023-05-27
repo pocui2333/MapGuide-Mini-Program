@@ -1,0 +1,7 @@
+{
+  "name": "loadMapPoints",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

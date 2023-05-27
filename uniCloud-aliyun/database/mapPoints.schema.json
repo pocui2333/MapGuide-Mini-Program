@@ -1,0 +1,53 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": false,
+		"create": false,
+		"update": false,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"id":{
+			"bsonType": "int",
+			"title": "marker id"
+		},
+		"title":{
+			"bsonType": "string",
+			"title": "坐标名称"
+		},
+		"width":{
+			"bsonType": "int",
+			"title": "图标宽度",
+			"maxLength": 2
+		},
+		"height":{
+			"bsonType": "int",
+			"title": "图标高度",
+			"maxLength": 2
+		},
+		"latitude":{
+			"bsonType": "string",
+			"title": "维度"
+		},
+		"longitude":{
+			"bsonType": "string",
+			"title": "经度"
+		},
+		"iconPath":{
+			"bsonType": "string",
+			"title": "图标地址"
+		},
+		"tags":{
+			"bsonType": "array",
+			"title": "建筑标签"
+		},
+		"type":{
+			"bsonType": "string",
+			"title": "建筑类型"
+		}
+	}
+}
